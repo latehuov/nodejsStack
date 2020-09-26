@@ -1,0 +1,186 @@
+{
+
+  "charger":[
+    {
+      "idCharger":"c100s",
+      "location":{"lat":60.4434, "lng":22.6058},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"Länsiportti 1",
+      "city":"Paimio"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":62.6203, "lng":22.4122},
+      "type":"slow",
+      "price":0,
+      "status":false,
+      "address":"Huovintie 1",
+      "city":"Kurikka"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    },
+    {
+      "idCharger":"c100s",
+      "location":{"lat":33.3, "lng":22.2},
+      "type":"fast",
+      "price":12,
+      "status":false,
+      "address":"puupää 13",
+      "city":"kallo"
+    }
+
+  ]
+}

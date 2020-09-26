@@ -1,0 +1,19 @@
+{
+  "user":[
+    {
+      "idUser":"u10002",
+      "uName":"localAdmin",
+      "passW":"admin123",
+      "carReg":"abc-123",
+      "history":[
+        {
+          "total":10,
+          "idCharger":"c100s",
+          "duration":1,
+          "date":"10-10-2020",
+          "consumedW":2
+        }
+      ]
+    }
+  ]
+}

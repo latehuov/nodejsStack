@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import './App.css';
+import axios from 'axios'
+import GoogleMapReact from 'google-map-react'
 
-function App() {
+export default function App() {
+
+  const [chargerLoc, addLocs] = useState([])
+
+  useEffect(() => {
+    axios.get('http://localhost:4000/')
+      .then((response) => {
+        addLocs(response.data.charger)
+      });
+  });
+
+
+  const defaults = {
+    center:{lat: 65.14, lng:27.23},
+    zoom:5
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div style={{ height: '100vh', width: '100%' }}>
+      <GoogleMapReact
+      bootstrapURLKeys={{ key: "AIzaSyAcGpyZvjDRJ4Ryr-TAzv2LlLJF_mZ-IJ8" }}
+      defaultCenter={defaults.center}
+      defaultZoom={defaults.zoom}>
 
-export default App;
+      </GoogleMapReact>
+
+    </div>
+  )
+}
