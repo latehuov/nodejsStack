@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latehuov/nodejsStack.git"
+  },
+  "author": "Lasse Huovinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/latehuov/nodejsStack/issues"
+  },
+  "homepage": "https://github.com/latehuov/nodejsStack#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
