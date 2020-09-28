@@ -3,7 +3,7 @@
 const express = require('express')
 const app = express()
 const port = 4000
-const data = require('./data.json');
+const data = require('./chargers.json');
 const cors = require('cors')
 
 app.use(cors());

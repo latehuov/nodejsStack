@@ -8,6 +8,8 @@ import {
 import './App.css';
 import axios from 'axios'
 import GoogleMapReact from 'google-map-react'
+import Marker from './marker.js'
+
 
 export default function App() {
 
@@ -16,7 +18,7 @@ export default function App() {
   useEffect(() => {
     axios.get('http://localhost:4000/')
       .then((response) => {
-        addLocs(response.data.charger)
+        addLocs(response.data)
       });
   });
 
@@ -32,7 +34,7 @@ export default function App() {
       bootstrapURLKeys={{ key: "AIzaSyAcGpyZvjDRJ4Ryr-TAzv2LlLJF_mZ-IJ8" }}
       defaultCenter={defaults.center}
       defaultZoom={defaults.zoom}>
-
+        {chargerLoc.map((charger, iterator) => <Marker lat={charger.location.lat} lng={charger.location.lng} text={charger.address} key={iterator}/>)}
       </GoogleMapReact>
 
     </div>

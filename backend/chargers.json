@@ -21,39 +21,39 @@
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
-      "type":"fast",
+      "location":{"lat":60.3974, "lng":25.6910},
+      "type":"slow",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Ensio Miettisen Katu 2",
+      "city":"Porvoo"
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
+      "location":{"lat":65.0755, "lng":25.4470},
       "type":"fast",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Ritaharjuntie 49",
+      "city":"Oulu"
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
-      "type":"fast",
+      "location":{"lat":64.1483, "lng":28.2376},
+      "type":"slow",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Katinkullantie 15",
+      "city":"Vuokatti"
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
-      "type":"fast",
+      "location":{"lat":66.1669, "lng":29.1383},
+      "type":"slow",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Rukankyläntie 6",
+      "city":"Kuusamo"
     },
     {
       "idCharger":"c100s",
