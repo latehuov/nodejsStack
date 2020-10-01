@@ -2,7 +2,7 @@
 
   "charger":[
     {
-      "idCharger":"c100s",
+      "idCharger":"cf01",
       "location":{"lat":60.4434, "lng":22.6058},
       "type":"fast",
       "price":12,
@@ -11,7 +11,7 @@
       "city":"Paimio"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cs01",
       "location":{"lat":62.6203, "lng":22.4122},
       "type":"slow",
       "price":0,
@@ -20,7 +20,7 @@
       "city":"Kurikka"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cs02",
       "location":{"lat":60.3974, "lng":25.6910},
       "type":"slow",
       "price":12,
@@ -29,7 +29,7 @@
       "city":"Porvoo"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cf02",
       "location":{"lat":65.0755, "lng":25.4470},
       "type":"fast",
       "price":12,
@@ -38,7 +38,7 @@
       "city":"Oulu"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cs03",
       "location":{"lat":64.1483, "lng":28.2376},
       "type":"slow",
       "price":12,
@@ -47,7 +47,7 @@
       "city":"Vuokatti"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cs04",
       "location":{"lat":66.1669, "lng":29.1383},
       "type":"slow",
       "price":12,
@@ -56,7 +56,7 @@
       "city":"Kuusamo"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cs05",
       "location":{"lat":67.6954, "lng":24.8615},
       "type":"slow",
       "price":12,
@@ -65,7 +65,7 @@
       "city":"Kittila"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cs06",
       "location":{"lat":66.1614, "lng":25.1065},
       "type":"slow",
       "price":12,
@@ -74,7 +74,7 @@
       "city":"Peura"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cs07",
       "location":{"lat":62.8239, "lng":27.6019},
       "type":"slow",
       "price":12,
@@ -83,7 +83,7 @@
       "city":"Kuopio"
     },
     {
-      "idCharger":"c100s",
+      "idCharger":"cf03",
       "location":{"lat":63.3854, "lng":23.1131},
       "type":"fast",
       "price":12,

@@ -5,11 +5,14 @@
       "uName":"localAdmin",
       "passW":"admin123",
       "carReg":"abc-123",
+      "startT":"13:50",
+      "endT":"14:00",
       "history":[
         {
           "total":10,
           "idCharger":"c100s",
-          "duration":1,
+          "startT":"13:50",
+          "endT":"14:00",
           "date":"10-10-2020",
           "consumedW":2
         }

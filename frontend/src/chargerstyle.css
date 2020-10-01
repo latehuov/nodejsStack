@@ -8,8 +8,10 @@
 .chargerDiv{
   display: flex;
   flex-direction: column;
-  justify:center;
   width: auto;
   height: auto;
   border:1px solid black;
+}
+.chargerDiv:hover{
+  background-color:lightblue;
 }
