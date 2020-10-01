@@ -16,5 +16,5 @@
 }
 .marker:hover +.hidden{
   display:flex;
-    text-align: center;
+  text-align: justify-left;
 }

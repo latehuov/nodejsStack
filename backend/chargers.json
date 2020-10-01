@@ -57,39 +57,39 @@
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
-      "type":"fast",
+      "location":{"lat":67.6954, "lng":24.8615},
+      "type":"slow",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Levintie 259",
+      "city":"Kittila"
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
-      "type":"fast",
+      "location":{"lat":66.1614, "lng":25.1065},
+      "type":"slow",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Nelostie",
+      "city":"Peura"
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
-      "type":"fast",
+      "location":{"lat":62.8239, "lng":27.6019},
+      "type":"slow",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Matkuksentie 60",
+      "city":"Kuopio"
     },
     {
       "idCharger":"c100s",
-      "location":{"lat":33.3, "lng":22.2},
+      "location":{"lat":63.3854, "lng":23.1131},
       "type":"fast",
       "price":12,
       "status":false,
-      "address":"puupää 13",
-      "city":"kallo"
+      "address":"Tervahovintie 9",
+      "city":"Kokkola"
     },
     {
       "idCharger":"c100s",
