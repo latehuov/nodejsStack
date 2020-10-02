@@ -7,9 +7,9 @@ import {
 } from "react-router-dom";
 import './App.css';
 import axios from 'axios'
-import GoogleMapReact from 'google-map-react'
-import Marker from './marker.js'
 import CurrentCharger from './currentcharger.js'
+import Header from './header.js'
+import BodyComps from './bodycomps.js'
 
 export default function App() {
 
@@ -29,23 +29,24 @@ export default function App() {
   }
 
   const changeCharger = id => {
-    console.log(id.type)
+    changeView(id)
   }
+
+  var chargerview =<CurrentCharger chargers={chargerLoc} pickCharger={changeCharger}/>
+
+  if(currentView == '')
+    chargerview = <CurrentCharger chargers={chargerLoc} pickCharger={changeCharger}/>
+  else{
+    let chargers = chargerLoc.find(charger =>charger.idCharger == currentView)
+    chargerview = <CurrentCharger currentView={currentView} chargers={chargers} pickCharger={changeCharger}/>
+  }
+
 
   return (
     <Router>
-    <div style={{display:'flex', height:'10vh', width:'100%'}}>Hello</div>
-    <div style={{display:'flex', height:'90vh', width:'100%'}}>
-      <CurrentCharger currentView={currentView} chargers={chargerLoc} pickCharger={changeCharger}/>
-      <div style={{ height: '90vh', width: '80%', display: 'flex'}}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: "AIzaSyAcGpyZvjDRJ4Ryr-TAzv2LlLJF_mZ-IJ8" }}
-          defaultCenter={defaults.center}
-          defaultZoom={defaults.zoom}>
-          {chargerLoc.map((charger, iterator) => <Marker lat={charger.location.lat} lng={charger.location.lng} text={charger.address} key={iterator}/>)}
-        </GoogleMapReact>
-      </div>
-    </div>
+    <Header/>
+    <BodyComps chargerview={chargerview} chargerLoc={chargerLoc} defaults={defaults} pickCharger={changeCharger}/>
+
     </Router>
   )
 }

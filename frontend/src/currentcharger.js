@@ -1,22 +1,31 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './chargerstyle.css'
 
 
 export default function CurrentCharger (props){
 
-  var [selectedId, setId] = useState('')
-
-  const pickCharger = () => {
-    props.pickCharger(selectedId)
+  const pickCharger = (idCharger) => {
+    props.pickCharger(idCharger)
   }
 
-    var output = props.chargers.map((charger, iterator) =><div className='chargerDiv' key={iterator + 'charger'} onClick={() =>pickCharger(charger.idCharger)}>
+  var output
+  if(!props.currentView){
+    output = props.chargers.map((charger, iterator) =><div className='chargerDiv' key={iterator + 'charger'} onClick={() =>pickCharger(charger.idCharger)}>
                                               <content>{charger.address}</content>
                                               <content>{charger.city}</content>
                                               <content>{charger.type}</content>
                                               <content>{charger.status}</content>
                                               </div>)
-
+  }
+  else{
+    output = <> <button onClick={() =>pickCharger('')}>	&#8592;</button>
+                  <div className='singleCharger'>
+                    <content>{props.chargers.address}</content>
+                    <content>{props.chargers.city}</content>
+                    <content>{props.chargers.type}</content>
+                    <content>{props.chargers.status}</content>
+                  </div></>
+  }
 
 
 

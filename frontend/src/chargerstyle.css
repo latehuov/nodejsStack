@@ -3,6 +3,8 @@
   flex-direction: column;
   height:100%;
   width:20%;
+  margin:0;
+  padding:0;
   overflow-y: scroll;
 }
 .chargerDiv{
@@ -14,4 +16,10 @@
 }
 .chargerDiv:hover{
   background-color:lightblue;
+}
+.singleCharger{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
 }
