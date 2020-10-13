@@ -7,5 +7,11 @@
 .mapDiv{
     display:flex;
     height: 90vh;
-    width: 80%;
+    width: 85%;
+}
+.chargerContainer{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    height:90vh;
 }

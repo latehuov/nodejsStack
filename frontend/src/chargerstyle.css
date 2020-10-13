@@ -1,8 +1,8 @@
 .mainDiv{
   display:flex;
   flex-direction: column;
-  height:100%;
-  width:20%;
+  height:100vh;
+  width:100%;
   margin:0;
   padding:0;
   overflow-y: scroll;
@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   width: auto;
-  height: auto;
+  height: 100vh;
   border:1px solid black;
 }
 .chargerDiv:hover{
@@ -21,5 +21,9 @@
   display: flex;
   flex-direction: column;
   width: auto;
-  height: auto;
+  height: 100vh;
+}
+.chargerStatus{
+  height: 50px;
+  width:50px;
 }
