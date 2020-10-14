@@ -1,0 +1,16 @@
+.main{
+    width: 300px;
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.itemInMain{
+    width:300px;
+    display:flex;
+    justify-content:space-between;
+}
+.butt{
+    text-align:center;
+    width:50px;
+}

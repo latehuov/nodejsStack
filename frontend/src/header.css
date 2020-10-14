@@ -1,6 +1,14 @@
 .header{
     display:flex;
     flex-direction:row;
+    align-items: center;
     height: 10vh;
     width:100%;
+}
+.inputThings {
+    width: 200px;
+    justify-content: space-evenly;
+}
+.otherStuff{
+    flex-direction: column;
 }

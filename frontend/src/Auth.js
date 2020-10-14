@@ -2,7 +2,8 @@ import axios from 'axios';
 
 let userInfo = {
   username: null,
-  password: null
+  password: null,
+  idUser: null
 }
 
 let myAuth = {
@@ -17,6 +18,7 @@ let myAuth = {
           })
           .then(result => {
             userInfo = {
+              idUser: result.data.idUser,
               username: username,
               password: password
             }

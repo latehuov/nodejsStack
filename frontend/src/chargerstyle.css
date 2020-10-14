@@ -24,6 +24,34 @@
   height: 100vh;
 }
 .chargerStatus{
-  height: 50px;
-  width:50px;
+  border: 1px solid black;
+  height: 49px;
+  width:49px;
+  line-height: 49px;
+  text-align: center;
+}
+.statusGrid{
+  display:grid;
+  grid-template-columns: 50px 50px;
+  height:100px;
+  width:100px,
+}
+.hover:hover{
+  background-color:lightblue;
+  cursor: pointer;
+}
+
+.singleChargerGrid{
+  display:flex;
+  flex-direction: column;
+}
+.chargerStatusCode{
+  border: 1px solid black;
+  height: 49px;
+  width:49px;
+  line-height: 49px;
+  text-align: center;
+}
+.chargerStatusCode:hover{
+  background-color:lightblue;
 }
